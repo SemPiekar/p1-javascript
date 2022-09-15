@@ -2,7 +2,7 @@ const myName = "Sem Piekar"
 let myAge = "16"
 const diploma = true
 let passed;
-//
+
 let num1 = 96
 let num2 = 402
 let answer = num1 * num2
