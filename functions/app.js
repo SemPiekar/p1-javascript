@@ -3,7 +3,6 @@ let num2;
 let answer;
 let answer2;
 let num3;
-let num4 = 5
 let num5;
 let num6;
 let answer3;
@@ -15,7 +14,7 @@ const calculate = function(num1, num2) {
     console.log(answer);
 }
 const multiplyByFive = function(num3) { 
-    answer2 = num3 * num4
+    answer2 = num3 * 5
     console.log(answer2);
 }
 
