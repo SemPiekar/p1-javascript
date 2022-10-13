@@ -12,11 +12,13 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
-let age = document.getElementById("age");
+
 function verification() {
-  if (age > 18) {
-    window.location.href = "/opdracht_9.1/toYoung.html";
-  } else {
+  let age = document.getElementById("age");
+  if (age.value > 18) {
     window.location.href = "/opdracht_9.1/webpage.html";
+  } else {
+    window.location.href = "/opdracht_9.1/toYoung.html";
+    console.log("sukkel");
   }
 }
